@@ -2,26 +2,28 @@
 //import alpinejs from "alpinejs";
 
 // finally! this import now  works successfully
-//import jQuery from "jQuery"; // JQUERY IMPORT DID NOT WORK
+//
+import jquery from "jquery"; 
+// the Below JQUERY IMPORT DID NOT WORK
 // import "@types/jquery/";
 
 // Stefano_Question:  Unable to import Font-Awesome
 
-jQuery(document).ready(function () {
+jquery(document).ready(function () {
   // This message was  not  printed to the console for a long time
   //
   console.log(
-    "This message will now  be printed to the console due to Doc-Ready.  jQuery is hopefully ready now  ;) "
+    "jquery Document-Ready. jQuery is ready now  ;) "
   );
 
   function scrollToTop() {
-    console.log("scroll to top on Pageload please "); 
-    setTimeout(() => jQuery(window).scrollTop(0), 300);
+   // console.log("scroll to top on Pageload please "); 
+    setTimeout(() => jquery(window).scrollTop(0), 300);
   }
   scrollToTop();
 });
 // // Stefano_Question:  settimeout seems to be  needed for the Console to print the message! Suprize!
-setTimeout(() => console.log("file: nav.js was successfully added."), 10);
+// setTimeout(() => console.log("file: nav.js was successfully added."), 10);
 
 // NAV is comming  FROM https://codepen.io/taniarascia/pen/dYvvYv
 // NAV-TUTORIAL here  http://www.taniarascia.com/responsive-dropdown-navigation-bar/
@@ -51,4 +53,4 @@ setTimeout(() => console.log("file: nav.js was successfully added."), 10);
       this.classList.toggle("active");
     });
   }); // end DOM ready
-})(jQuery); // end jQuery
+})(jquery); // end jQuery

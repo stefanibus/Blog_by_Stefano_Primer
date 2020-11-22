@@ -6,4 +6,5 @@ ToDo - Remaining issues to take care of:
 - Modal Windows to be added to the Blog to display any articles for reading  
 - Autoprefixer? 
 - Font Family improovement? 
+- Issue: Dom-Structure-Issue see HTML style="height: 60px;"
  
