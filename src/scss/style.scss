@@ -1,0 +1,17 @@
+// This is the Main-SCSS File
+
+// Import NAV-Styling and Inner-Blog-Styling 
+@import './nav.scss', './innerBlog.scss';  
+ 
+// Import the Skeleton for TailWindCSS (later probably) 
+@import './skeleton.scss';  
+  
+@import url('https://unpkg.com/tailwindcss@2.0.1/dist/tailwind.min.css');
+
+@import url('https://tailwindui.com/css/components-v2.css');
+
+// unable to import Font-AweSome
+// @import 'import font-awesome from "font-awesome"; import font-awesome from "font-awesome"; '; 
+// @import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+
+ 

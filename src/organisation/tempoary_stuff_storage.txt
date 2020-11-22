@@ -1,0 +1,24 @@
+
+
+
+CSS 
+  shape-outside 
+    text is aligned  diagonally via css with the  shape-outside property
+    https://stackoverflow.com/questions/50568867/align-text-diagonally-in-css3
+    https://bennettfeely.com/clippy/
+    https://codepen.io/sougataghar47/pen/jONMvMR?editors=0100
+ 
+
+to open Blog-Articles -- > Modal Windows via Tingle ?
+  https://anymod.com/mod/blog-like-sections-dkdabl?preview=true
+  https://tingle.robinparisi.com/
+  https://www.hongkiat.com/blog/tinglejs-modal-window/
+
+
+
+
+
+
+
+
+

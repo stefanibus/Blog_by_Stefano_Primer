@@ -1,0 +1,23 @@
+
+
+STEP 1
+    I developed the Inner-Blog first.
+    Jquery for the NAV inside the blog 
+    Blog template from CodePen, see Code-pen reference inside HTML  
+    Added some styling, fixed some issues.  
+
+STEP 2
+    I used TailWindCSS Framework to build the skeleton (around the actual Blog)     
+    I Played with TailWindCSS and learned about AlpineJS too 
+    I have not fully understood the Alpine-JS Part 
+    Neither the Tooling on CodeSandBox, 
+    nor the tailwind.Config is understood. 
+    UI-Template is: https://tailwindui.com/components/application-ui/page-examples/settings-screens
+
+  
+STEP 3 
+    All my Attempts to Run any Build Process with PARCEL all failed completely
+    I surrendered due to CodeSandBox Issues and PARCEL Build-Issues 
+    Finally I simply complied my sass to css manually 
+    Afterwards the result was ready to be published on Github Pages 
+    

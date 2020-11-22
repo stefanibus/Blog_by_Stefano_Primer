@@ -1,0 +1,80 @@
+
+ 
+ <!--
+	Issues with codesandbox are innumerable :   
+        - page reload not rendering at all (page remanins white)
+        - empty index.js File printing "undefinded" to the console 
+        - open in new Window fails to render the HTML - too bad!
+        - I am facing issues when using chrome inspector on codesandbox-Projects
+        - WORST CASE!!!   Yesterdays data is LOST today = my changes seem to be lost!? What the heck! 
+        - the HTML Preview Pane sometimes remains BLANK after I updated the index.html 	I am loosing a lot of time, waiting, often the preview never reders at all --> 
+        - chrome inspector can almost not be used at all? because   opening the content in a new tab is almost impossible as the    page does not render -->
+        - <!-- embed sass ?? THIS DID NOT WORK: HTML --> HEAD -->  <link rel="stylesheet" href="./src/innerBlog.scss" /> -->
+        -  the console.log message will not get printed to the console (does work with  Settimeout)    //   console.log("boink boink");
+
+        
+<!-- in the HTML File 
+  Why is the Script-tag:index.js placed  inside the Body TAG?
+
+Import AlpineJS did work (inside nav.js)   
+  Why do I see the below Error in the Cosole? 
+  // 'alpinejs' is defined but never used (see nav.js)
+  // import alpinejs from "alpinejs";
+
+
+
+   
+Font-Awesome 
+    unable to import font awesome, why?  
+    endless number of attempts    
+     <!--  FontAwesome: just cannot apply the Fontawesone-CSS-Rules successfully for unknown reasons 	-->
+    <!-- added FontAweSome as a dependency as well, still need to learn how to aply those dependencies  though  -->
+    <!-- the below line does not apply for unknown reasons  -->
+    <!-- while I did find a lot of exambles how to bind fotawesome into my codesandbox Project, I still remained unsuccessful , examples not understood: https://codesandbox.io/examples/package/@fortawesome/react-fontawesome-->
+    <!--Test FontAweSome, shoud definately work, but does not work in codesandbox  --> 
+   <!-- <i class="fa fa-search"></i>Suche  -->
+    https://codesandbox.io/examples/package/@fortawesome/react-fontawesome
+	  FontAwesome Libary: various  Issues  
+    FONT AWESOME   
+    // I have no idea how to import font-awesome info codesandBox propperly
+    // import 'font-awesome/css/font-awesome.min.css';
+    //  this finally did the trick: MAYBE NOT?!
+    //   import "@fortawesome/fontawesome-free/js/all.js"; 
+    // import font-awesome from "font-awesome"; 
+    // import font-awesome  ;
+
+
+// is there a better was to import Google Fonts ?
+// I am using a   Link-Tag in the Head STATICALLY ? 
+ 
+ 
+ // what was this? 
+//  import "style.scss"
+//  import node-sass from './innerBlog.scss';
+
+
+// To prevent the browser from printing "undefined" to the console: 
+// I am using this workaround:
+// console.log('');   
+// The below console.log-message is intentionally empty
+// IF a JS-File is completely without code --> 
+// the console seems to  print an undefined message 
+  
+ 
+//  where and how does PARCEL take care of the Injection of the SCSS?  
+//  import "style.scss";  
+ 
+  
+
+jQuery IMPORT DID NOT WORK 
+	JS Import unsuccessful 
+		//   import @types/jquery   from "@types/jquery"; 
+		//     import "@types/jquery";
+	CSS Import unsuccessful 
+		// not needed at all, no idea how the scss is compiled and injected
+		// import "./innerBlog.scss";  
+	<!-- no idea how to embed   sass correctly  --> 
+	<!-- no idea how to compile sass correctly  -->
+
+
+I SURRENDER 

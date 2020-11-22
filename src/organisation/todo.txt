@@ -1,0 +1,9 @@
+ToDo - Remaining issues to take care of:   
+ 
+- I need to better understand the BUILD PROCESS !! 
+- Study PARCEL and AlpineJS   
+- "scroll to top-Function" might deliver added value 
+- Modal Windows to be added to the Blog to display any articles for reading  
+- Autoprefixer? 
+- Font Family improovement? 
+ 

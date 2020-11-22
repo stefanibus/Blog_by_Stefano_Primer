@@ -1,0 +1,15 @@
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+	--tw-space-x-reverse: 0;
+	margin-right: calc(.5rem * var(--tw-space-x-reverse));
+	margin-left: calc(.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+/* I am aware it should by no means be solved this way */
+/* Dirty Workaround to be ashemed of, still , need to value my time  */
+/* Will look into Tailwind deeper and learn how to apply the appropriate Selecor best way in the near future with WBS ;)    */
+@media (min-width: 1280px) {
+	div > div.bg-gray-100 > div > main > div > div > footer > div > div.xl\:grid.xl\:grid-cols-3.xl\:gap-8 > div.space-y-8.xl\:col-span-1,
+  .xl\:col-span-1 {
+		max-width: 270px !important;
+	}
+}
