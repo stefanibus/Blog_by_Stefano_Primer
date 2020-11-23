@@ -2,8 +2,7 @@
 //import alpinejs from "alpinejs";
 
 // finally! this import now  works successfully
-//
-import jquery from "jquery"; 
+// import jquery from "jquery"; 
 // the Below JQUERY IMPORT DID NOT WORK
 // import "@types/jquery/";
 
