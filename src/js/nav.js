@@ -2,22 +2,22 @@
 //import alpinejs from "alpinejs";
 
 // finally! this import now  works successfully
-// import jquery from "jquery"; 
+// import jQuery from "jQuery"; 
 // the Below JQUERY IMPORT DID NOT WORK
-// import "@types/jquery/";
+// import "@types/jQuery/";
 
 // Stefano_Question:  Unable to import Font-Awesome
 
-jquery(document).ready(function () {
+jQuery(document).ready(function () {
   // This message was  not  printed to the console for a long time
   //
   console.log(
-    "jquery Document-Ready. jQuery is ready now  ;) "
+    "jQuery Document-Ready. jQuery is ready now  ;) "
   );
 
   function scrollToTop() {
    // console.log("scroll to top on Pageload please "); 
-    setTimeout(() => jquery(window).scrollTop(0), 300);
+    setTimeout(() => jQuery(window).scrollTop(0), 300);
   }
   scrollToTop();
 });
@@ -52,4 +52,4 @@ jquery(document).ready(function () {
       this.classList.toggle("active");
     });
   }); // end DOM ready
-})(jquery); // end jQuery
+})(jQuery); // end jQuery
