@@ -113,6 +113,7 @@ nav {
   width: $nav-height;
 }
 @media only screen and (max-width: 798px) {
+ 
   // Hamburger nav visible on mobile only
   .nav-mobile {
     display: block;
@@ -121,7 +122,9 @@ nav {
    width: 100%;
     padding: $nav-height 0 15px;
     ul {
-      display: none;
+      display: none; 
+      position: absolute;
+      width: 100%;
       li {
         float: none;
         a {

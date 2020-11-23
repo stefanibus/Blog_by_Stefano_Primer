@@ -113,7 +113,9 @@ nav ul li ul li a {
 	}
 
 	nav ul {
-		display: none;
+		display: none; 
+		position: absolute;
+		width: 100%;
 	}
 
 	nav ul li {
